@@ -8,6 +8,6 @@ package factory.absf;
 public class AbstractFactoryTest {
     public static void main(String[] args) {
         BookFactory b = new BookFactory();
-        System.out.println(b.getJavaBcsx());
+        System.out.println(b.getJavaBcsx().getName());
     }
 }

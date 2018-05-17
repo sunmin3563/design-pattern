@@ -9,7 +9,7 @@ import factory.model.Sfdl;
  * @author sunmin
  * @date 2018/4/23 10:17
  */
-public class BookFactory extends  AbstractFactory{
+public class BookFactory extends AbstractFactory {
 
     @Override
     public IBook getJavaBcsx() {
