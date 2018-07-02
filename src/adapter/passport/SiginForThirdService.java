@@ -7,7 +7,7 @@ import adapter.ResultMsg;
  * 稳定的方法不去动，直接继承下来
  * Created by Tom on 2018/3/14.
  */
-public class SiginForThirdService extends adapter.passport.SiginService {
+public class SiginForThirdService extends SiginService {
 
     public ResultMsg loginForQQ(String openId){
         //1、openId是全局唯一，我们可以把它当做是一个用户名(加长)

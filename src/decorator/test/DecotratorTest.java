@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.decorator.test;
+package decorator.test;
 
 import java.io.DataInputStream;
 import java.io.FilterInputStream;
